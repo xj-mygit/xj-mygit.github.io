@@ -1,0 +1,32 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Hexo",
+    "description": "",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2023/11/14/Docker/%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80/",
+            "url": "http://example.com/2023/11/14/Docker/%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80/",
+            "title": "基础",
+            "date_published": "2023-11-14T11:57:10.000Z",
+            "content_html": "<h1 id=\"docker简介\"><a class=\"markdownIt-Anchor\" href=\"#docker简介\">#</a> Docker 简介</h1>\n<h2 id=\"docker生成背景\"><a class=\"markdownIt-Anchor\" href=\"#docker生成背景\">#</a> Docker 生成背景</h2>\n<ol>\n<li>由于各种配置、开发环境的不同（例如各种版本不一致的问题，mysql、java、redis 等），导致了不同人员使用系统时的各种问题。</li>\n<li>换一台机器就要重新部署一遍，费时费力<br>\n由此衍生出 Docker —— <mark>系统平滑移植，容器虚拟化计划</mark><br>\n Docker 解决了：通过将环境复制到 Docker，解决了我的代码只能在我自己电脑上正常工作的问题。<br>\n![[image/Pasted image 20231114193806.png]]</li>\n</ol>\n<h2 id=\"docker-理念\"><a class=\"markdownIt-Anchor\" href=\"#docker-理念\">#</a> Docker 理念</h2>\n<p><mark>一次镜像，处处运行</mark><br>\n<strong> Docker 是基于 Go 语言实现的开源项目</strong><br>\n Docker 主要目标是：Build、Ship And Run Any App，Anywhere；通过对应用组件的封装、分发、部署、运行等生命周期的管理，使用户的 App（可以是一个 Web 应用或者数据库应用）及其运行环境做到一次镜像，处处运行。</p>\n<p><mark>Linux 容器技术</mark>出现解决了这样一个问题，<mark>Docker 是基于此发展出来的</mark>。</p>\n<p>解决了：运行环境和配置问题的软件容器，方便做持续集成有助于整体发布的容器虚拟话技术</p>\n",
+            "tags": []
+        },
+        {
+            "id": "http://example.com/2023/11/10/Mysql/mysql%20%E6%B5%8B%E8%AF%95/",
+            "url": "http://example.com/2023/11/10/Mysql/mysql%20%E6%B5%8B%E8%AF%95/",
+            "title": "",
+            "date_published": "2023-11-10T03:23:52.152Z",
+            "content_html": "",
+            "tags": []
+        },
+        {
+            "id": "http://example.com/2023/11/07/hello-world/",
+            "url": "http://example.com/2023/11/07/hello-world/",
+            "title": "hello-world",
+            "date_published": "2023-11-07T12:52:02.000Z",
+            "content_html": "<p>Welcome to <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvLw==\">Hexo</span>! This is your very first post. Check <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv\">documentation</span> for more info. If you get any problems when using Hexo, you can find the answer in <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=\">troubleshooting</span> or you can ask me on <span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==\">GitHub</span>.</p>\n<h2 id=\"quick-start\"><a class=\"markdownIt-Anchor\" href=\"#quick-start\">#</a> Quick Start</h2>\n<h3 id=\"create-a-new-post\"><a class=\"markdownIt-Anchor\" href=\"#create-a-new-post\">#</a> Create a new post</h3>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo new <span class=\"string\">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>\n<p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s\">Writing</span></p>\n<h3 id=\"run-server\"><a class=\"markdownIt-Anchor\" href=\"#run-server\">#</a> Run server</h3>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo server</span><br></pre></td></tr></table></figure>\n<p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=\">Server</span></p>\n<h3 id=\"generate-static-files\"><a class=\"markdownIt-Anchor\" href=\"#generate-static-files\">#</a> Generate static files</h3>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo generate</span><br></pre></td></tr></table></figure>\n<p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s\">Generating</span></p>\n<h3 id=\"deploy-to-remote-sites\"><a class=\"markdownIt-Anchor\" href=\"#deploy-to-remote-sites\">#</a> Deploy to remote sites</h3>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo deploy</span><br></pre></td></tr></table></figure>\n<p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s\">Deployment</span></p>\n",
+            "tags": []
+        }
+    ]
+}
