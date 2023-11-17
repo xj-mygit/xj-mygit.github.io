@@ -26,7 +26,7 @@
 &lt;strong&gt; Docker 是基于 Go 语言实现的开源项目&lt;/strong&gt;&lt;br&gt;
  Docker 主要目标是：Build、Ship And Run Any App，Anywhere；通过对应用组件的封装、分发、部署、运行等生命周期的管理，使用户的 App（可以是一个 Web 应用或者数据库应用）及其运行环境做到一次镜像，处处运行。&lt;/p&gt;
 &lt;p&gt;&lt;mark&gt;Linux 容器技术&lt;/mark&gt;出现解决了这样一个问题，&lt;mark&gt;Docker 是基于此发展出来的&lt;/mark&gt;。&lt;/p&gt;
-&lt;p&gt;解决了：运行环境和配置问题的软件容器，方便做持续集成有助于整体发布的容器虚拟话技术&lt;/p&gt;
+&lt;p&gt;解决了：运行环境和配置问题的软件容器，方便做持续集成有助于整体发布的容器虚拟话技术。&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
