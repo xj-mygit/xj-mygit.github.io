@@ -23,6 +23,22 @@
  Docker 主要目标是：Build、Ship And Run Any App，Anywhere；通过对应用组件的封装、分发、部署、运行等生命周期的管理，使用户的 App（可以是一个 Web 应用或者数据库应用）及其运行环境做到一次镜像，处处运行。&lt;/p&gt;
 &lt;p&gt;&lt;mark&gt;Linux 容器技术&lt;/mark&gt;出现解决了这样一个问题，&lt;mark&gt;Docker 是基于此发展出来的&lt;/mark&gt;。&lt;/p&gt;
 &lt;p&gt;解决了：运行环境和配置问题的软件容器，方便做持续集成有助于整体发布的容器虚拟话技术。&lt;/p&gt;
+&lt;h2 id=&#34;容器与虚拟机的区别&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#容器与虚拟机的区别&#34;&gt;#&lt;/a&gt; 容器与虚拟机的区别&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;容器的发展&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;光盘 - 卡带 - 虚拟机 - 容器&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;虚拟机&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;不影响宿主机的运行，而通过 == 宿主机的一个应用程序（虚拟机）== 创建出不同于宿主机的操作系统的多个实例。并在多个实例上安装部署各种应用。&lt;br&gt;
+缺点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;太重了，将整套操作系统的所有内容都搬来，导致资源占用多。&lt;/li&gt;
+&lt;li&gt;太慢了。启动到进入系统，所用时间过长。&lt;/li&gt;
+&lt;li&gt;步骤多。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;![[Docker - 学习 - 基础 - 01.png]]&lt;/p&gt;
 </content>
         <updated>2023-11-14T11:57:10.000Z</updated>
     </entry>
