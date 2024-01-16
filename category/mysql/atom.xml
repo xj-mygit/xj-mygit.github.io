@@ -3,11 +3,11 @@
     <id>http://example.com</id>
     <title>Hexo • Posts by &#34;mysql&#34; category</title>
     <link href="http://example.com" />
-    <updated>2023-12-20T02:31:55.784Z</updated>
+    <updated>2023-11-14T11:57:10.000Z</updated>
     <entry>
-        <id>http://example.com/2023/12/28ec38d85fc3.html</id>
-        <title></title>
-        <link rel="alternate" href="http://example.com/2023/12/28ec38d85fc3.html"/>
+        <id>http://example.com/2023/11/84e258cfff68.html</id>
+        <title>使用索引的注意事项</title>
+        <link rel="alternate" href="http://example.com/2023/11/84e258cfff68.html"/>
         <content type="html">&lt;h1 id=&#34;联表&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#联表&#34;&gt;#&lt;/a&gt; 联表&lt;/h1&gt;
 &lt;h2 id=&#34;规则&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#规则&#34;&gt;#&lt;/a&gt; 规则&lt;/h2&gt;
 &lt;ol&gt;
@@ -22,12 +22,12 @@
 &lt;/ol&gt;
 &lt;/blockquote&gt;
 </content>
-        <updated>2023-12-20T02:31:55.784Z</updated>
+        <updated>2023-11-14T11:57:10.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/12/dc9a13a0036c.html</id>
-        <title></title>
-        <link rel="alternate" href="http://example.com/2023/12/dc9a13a0036c.html"/>
+        <id>http://example.com/2023/11/5d31ddd2499b.html</id>
+        <title>Explain查询优化</title>
+        <link rel="alternate" href="http://example.com/2023/11/5d31ddd2499b.html"/>
         <content type="html">&lt;h1 id=&#34;explain&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#explain&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXYubXlzcWwuY29tL2RvYy9yZWZtYW4vNS43L2VuL3VzaW5nLWV4cGxhaW4uaHRtbA==&#34;&gt;Explain&lt;/span&gt; 简介&lt;/h1&gt;
 &lt;p&gt;Explain 语句提供了有关&lt;mark&gt; Mysql 语句如何执行的信息&lt;/mark&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -40,13 +40,6 @@
 &lt;li&gt;当与可解释语句一起 Explain 使用 时，它显示在指定连接中执行的语句的执行计划&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <updated>2023-12-14T09:41:53.286Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/2023/11/1ffd7ed29f56.html</id>
-        <title></title>
-        <link rel="alternate" href="http://example.com/2023/11/1ffd7ed29f56.html"/>
-        <content type="html"></content>
-        <updated>2023-11-10T03:23:52.152Z</updated>
+        <updated>2023-11-07T12:52:02.000Z</updated>
     </entry>
 </feed>

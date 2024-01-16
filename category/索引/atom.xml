@@ -1,16 +1,9 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://example.com</id>
-    <title>Hexo • Posts by &#34;杂记&#34; category</title>
+    <title>Hexo • Posts by &#34;索引&#34; category</title>
     <link href="http://example.com" />
-    <updated>2024-01-02T08:20:00.000Z</updated>
-    <entry>
-        <id>http://example.com/2024/01/ba3fa3c6552e.html</id>
-        <title>Cron表达式的基本使用</title>
-        <link rel="alternate" href="http://example.com/2024/01/ba3fa3c6552e.html"/>
-        <content type="html"></content>
-        <updated>2024-01-02T08:20:00.000Z</updated>
-    </entry>
+    <updated>2023-11-14T11:57:10.000Z</updated>
     <entry>
         <id>http://example.com/2023/11/84e258cfff68.html</id>
         <title>使用索引的注意事项</title>

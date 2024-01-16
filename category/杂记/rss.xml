@@ -5,14 +5,34 @@
         <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Mon, 11 Dec 2023 10:55:26 +0800</pubDate>
-        <lastBuildDate>Mon, 11 Dec 2023 10:55:26 +0800</lastBuildDate>
+        <pubDate>Tue, 02 Jan 2024 16:20:00 +0800</pubDate>
+        <lastBuildDate>Tue, 02 Jan 2024 16:20:00 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">http://example.com/2023/12/3ee6a7b833a2.html</guid>
-            <title></title>
-            <link>http://example.com/2023/12/3ee6a7b833a2.html</link>
-            <pubDate>Mon, 11 Dec 2023 10:55:26 +0800</pubDate>
+            <guid isPermalink="true">http://example.com/2024/01/ba3fa3c6552e.html</guid>
+            <title>Cron表达式的基本使用</title>
+            <link>http://example.com/2024/01/ba3fa3c6552e.html</link>
+            <pubDate>Tue, 02 Jan 2024 16:20:00 +0800</pubDate>
             <description><![CDATA[  ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/11/84e258cfff68.html</guid>
+            <title>使用索引的注意事项</title>
+            <link>http://example.com/2023/11/84e258cfff68.html</link>
+            <pubDate>Tue, 14 Nov 2023 19:57:10 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;联表&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#联表&#34;&gt;#&lt;/a&gt; 联表&lt;/h1&gt;
+&lt;h2 id=&#34;规则&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#规则&#34;&gt;#&lt;/a&gt; 规则&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;关联字段需要加索引。&lt;/li&gt;
+&lt;li&gt;关联的字段需要保证 ** 校对规则 (collation)、类型、长度保持一致。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;遇到过的问题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#遇到过的问题&#34;&gt;#&lt;/a&gt; 遇到过的问题&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;联表的关联字段都加了索引，但是 explain 发现并没有使用索引&lt;br&gt;
+解决：不符合规则 2。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+ ]]></description>
         </item>
     </channel>
 </rss>

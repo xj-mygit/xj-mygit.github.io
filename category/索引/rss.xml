@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>Hexo • Posts by &#34;mysql&#34; category</title>
+        <title>Hexo • Posts by &#34;索引&#34; category</title>
         <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
@@ -25,24 +25,6 @@
 解决：不符合规则 2。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2023/11/5d31ddd2499b.html</guid>
-            <title>Explain查询优化</title>
-            <link>http://example.com/2023/11/5d31ddd2499b.html</link>
-            <pubDate>Tue, 07 Nov 2023 20:52:02 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;explain&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#explain&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXYubXlzcWwuY29tL2RvYy9yZWZtYW4vNS43L2VuL3VzaW5nLWV4cGxhaW4uaHRtbA==&#34;&gt;Explain&lt;/span&gt; 简介&lt;/h1&gt;
-&lt;p&gt;Explain 语句提供了有关&lt;mark&gt; Mysql 语句如何执行的信息&lt;/mark&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Explain 适用于 select、update、insert、delete 语句。&lt;/li&gt;
-&lt;li&gt;Explain 和可适用的语句一起执行时，MySQL 会展示可适用语句的执行计划的信息。也就是 MySQL 解释了它将&lt;mark&gt;如何处理该语句&lt;/mark&gt;，包括有关&lt;mark&gt;表如何连接以及连接顺序的信息&lt;/mark&gt;。
-&lt;ul&gt;
-&lt;li&gt;示例：```explain select * from  users;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;当与可解释语句一起 Explain 使用 时，它显示在指定连接中执行的语句的执行计划&lt;/li&gt;
-&lt;/ul&gt;
  ]]></description>
         </item>
     </channel>

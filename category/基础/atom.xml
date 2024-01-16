@@ -1,109 +1,14 @@
 <?xml version="1.0"?>
-<rss version="2.0">
-    <channel>
-        <title>Hexo</title>
-        <link>http://example.com</link>
-        <description></description>
-        <language>zh-CN</language>
-        <pubDate>Tue, 16 Jan 2024 21:08:00 +0800</pubDate>
-        <lastBuildDate>Tue, 16 Jan 2024 21:08:00 +0800</lastBuildDate>
-        <item>
-            <guid isPermalink="true">http://example.com/2024/01/c5a469d6786f.html</guid>
-            <title>社会保险（社保）</title>
-            <link>http://example.com/2024/01/c5a469d6786f.html</link>
-            <pubDate>Tue, 16 Jan 2024 21:08:00 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;主要包含的项目&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#主要包含的项目&#34;&gt;#&lt;/a&gt; 主要包含的项目&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;养老保险&lt;/li&gt;
-&lt;li&gt;医疗保险&lt;/li&gt;
-&lt;li&gt;失业保险&lt;/li&gt;
-&lt;li&gt;工伤保险&lt;/li&gt;
-&lt;li&gt;生育保险&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;养老保险&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#养老保险&#34;&gt;#&lt;/a&gt; 养老保险&lt;/h2&gt;
-&lt;p&gt;达到法定退休年龄且缴纳年限 15 年及以上。可以在退休年龄每个月领取养老金。&lt;br&gt;
-缴费比例：看各地当年政策。&lt;/p&gt;
-&lt;h2 id=&#34;医疗保险&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#医疗保险&#34;&gt;#&lt;/a&gt; 医疗保险&lt;/h2&gt;
-&lt;p&gt;医院看病可以按照一定比例报销。&lt;br&gt;
-缴费比例：看各地当年政策。&lt;br&gt;
-&lt;strong&gt;城镇职工大额医疗救助费&lt;/strong&gt;：全年 260。每个季度的首月份 21，其他月份 22。&lt;/p&gt;
-&lt;h2 id=&#34;失业保险&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#失业保险&#34;&gt;#&lt;/a&gt; 失业保险&lt;/h2&gt;
-&lt;h2 id=&#34;工伤保险&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工伤保险&#34;&gt;#&lt;/a&gt; 工伤保险&lt;/h2&gt;
-&lt;h2 id=&#34;生育保险&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#生育保险&#34;&gt;#&lt;/a&gt; 生育保险&lt;/h2&gt;
-&lt;h1 id=&#34;社保的分类&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#社保的分类&#34;&gt;#&lt;/a&gt; 社保的分类&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;城镇职工社保&lt;/li&gt;
-&lt;li&gt;城镇灵活就业职工社保&lt;/li&gt;
-&lt;li&gt;城镇居民社保&lt;/li&gt;
-&lt;li&gt;农村村民社保&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;城镇职工社保&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#城镇职工社保&#34;&gt;#&lt;/a&gt; 城镇职工社保&lt;/h2&gt;
-&lt;p&gt;与当地劳务公司签订劳务合同后。由劳务公司和职工共同承担保费。&lt;br&gt;
-具体比例看当地政策。&lt;/p&gt;
-&lt;h3 id=&#34;基本概念&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基本概念&#34;&gt;#&lt;/a&gt; 基本概念&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;缴费基数&lt;/strong&gt;：缴纳费用的标准。计算缴纳保费的基数。一般是以工资作为基数。但存在存在最低标准和最高标准。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;低于最低标准的按照最低标准作为基数。&lt;/li&gt;
-&lt;li&gt;高于最高标准按照最高标准计算。&lt;/li&gt;
-&lt;li&gt;缴费基数怎么算的：
-&lt;ul&gt;
-&lt;li&gt;最高标准：以当地上年度职工平均工资的 300% 为缴费基数；&lt;/li&gt;
-&lt;li&gt;最低标准：以当地上一年职工平均工资的 60% 为缴费基数；&lt;br&gt;
-&lt;strong&gt; 缴费比例&lt;/strong&gt;：缴纳保费的比例。&lt;br&gt;
-个人缴费公式：== 个人缴纳保费 = 缴费基数 * 个人缴费比例  + 当月大额医疗救助费 ==&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;下面以天津 2024 年缴费标准举例。&lt;br&gt;
-&lt;strong&gt;缴费基数&lt;/strong&gt;：4751-23757。&lt;br&gt;
-&lt;strong&gt;缴费比例&lt;/strong&gt;如下：&lt;br&gt;
-&lt;img data-src=&#34;https://node-picture-of-typora.oss-cn-hangzhou.aliyuncs.com/image-for-typora/2024%E5%A4%A9%E6%B4%A5%E7%A4%BE%E4%BF%9D%E7%BC%B4%E8%B4%B9%E6%AF%94%E4%BE%8B.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;例子 1: 李华 1 月工资收入 4400，低于最低标准。生育保险取 0.2%&lt;br&gt;
- 当月个人缴纳保费 = 4751 * 15.5%  + 21&lt;br&gt;
- 当月总缴纳保费 = 4751 * 37.7% + 21&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;例子 2: 李华 2 月工资收入 5000。位于标准中。&lt;br&gt;
-当月个人缴纳保费 = 5000 * 15.5% + 22&lt;br&gt;
- 当月总缴纳保费 = 5000 * 37.7% + 22&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;例子 3: 李华 2 月工资收入稳定 25000，高于最高标准。&lt;br&gt;
-当月个人缴纳保费：25000 * 15.5% + 22&lt;br&gt;
- 当月总缴纳保费 = 25000 * 37.7% + 22&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;城镇灵活就业社保&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#城镇灵活就业社保&#34;&gt;#&lt;/a&gt; 城镇灵活就业社保&lt;/h2&gt;
-&lt;p&gt;面向于无雇工的个体经营户、无业人群、短期合同、兼职等无法和公司签订诬陷一金劳务合同的人群。&lt;br&gt;
-基本概念和城镇职工一样。&lt;mark&gt;享有和职工城镇社保一样的待遇（在医疗保险和养老保险中）&lt;/mark&gt;&lt;br&gt;
-&lt;strong&gt;险种只有养老保险和医疗保险&lt;/strong&gt;。&lt;br&gt;
-个人缴费公式：== 个人缴纳保费 = 缴费基数 * 缴费比例  + 当月大额医疗救助费 ==&lt;br&gt;
- 以天津 2024 灵活就业比例为例：&lt;br&gt;
-&lt;img data-src=&#34;https://node-picture-of-typora.oss-cn-hangzhou.aliyuncs.com/image-for-typora/2024%E5%A4%A9%E6%B4%A5%E7%81%B5%E6%B4%BB%E5%B0%B1%E4%B8%9A%E7%A4%BE%E4%BF%9D%E7%BC%B4%E8%B4%B9%E6%AF%94%E4%BE%8B.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;例子 1: 李华 2 月收入 4000 或者 0，低于最低标准。&lt;br&gt;
-个人缴纳保费：4751 * 28.5% + 22&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;例子 2: 李华 2 月收入 100000，高于最高标准。&lt;br&gt;
-个人缴纳保费：23757 * 28.5% + 22&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;例子 3: 李华 1 月收入 6000，位于中间。&lt;br&gt;
-个人缴纳保费：6000* 28.5% + 21&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&#34;社保保费的去向&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#社保保费的去向&#34;&gt;#&lt;/a&gt; 社保保费的去向&lt;/h1&gt;
-&lt;p&gt;城镇职工社保、灵活就业社保。总缴纳保费流入分为两个账户：统筹账户和个人账户。&lt;br&gt;
-统筹账户：保费大部分的流向。用于发放给可以领取养老金的人以及报销医疗费用。&lt;br&gt;
-个人账户：保费小部分的流向。可供自己支配使用的。如医保报销。&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2024/01/e1b05e3ef41c.html</guid>
-            <title></title>
-            <link>http://example.com/2024/01/e1b05e3ef41c.html</link>
-            <pubDate>Sun, 07 Jan 2024 20:39:33 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;帮助启动类命令&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#帮助启动类命令&#34;&gt;#&lt;/a&gt; 帮助启动类命令&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>Hexo • Posts by &#34;基础&#34; category</title>
+    <link href="http://example.com" />
+    <updated>2024-01-07T12:39:33.599Z</updated>
+    <entry>
+        <id>http://example.com/2024/01/e1b05e3ef41c.html</id>
+        <title></title>
+        <link rel="alternate" href="http://example.com/2024/01/e1b05e3ef41c.html"/>
+        <content type="html">&lt;h1 id=&#34;帮助启动类命令&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#帮助启动类命令&#34;&gt;#&lt;/a&gt; 帮助启动类命令&lt;/h1&gt;
 &lt;p&gt;&lt;mark&gt;通过 docker --help 以及 docker 命令 --help 查看 docker 命令的使用。&lt;/mark&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;启动 Docker：&lt;/li&gt;
@@ -153,138 +58,14 @@ REPOSITORY：镜像的仓库源&lt;br&gt;
 CREATED： 镜像的创建时间&lt;br&gt;
  SIZE：镜像的大小&lt;br&gt;
 同一个仓库源可以有多个 TAG 版本。使用&lt;strong&gt; REPOSITORY:TAG&lt;/strong&gt; 可以定义指定版本的仓库源。如&lt;strong&gt;不指定则默认最新&lt;/strong&gt;。&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2024/01/ba3fa3c6552e.html</guid>
-            <title>Cron表达式的基本使用</title>
-            <link>http://example.com/2024/01/ba3fa3c6552e.html</link>
-            <pubDate>Tue, 02 Jan 2024 16:20:00 +0800</pubDate>
-            <description><![CDATA[  ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2024/01/622f00a16f22.html</guid>
-            <title>重疾险</title>
-            <link>http://example.com/2024/01/622f00a16f22.html</link>
-            <pubDate>Tue, 02 Jan 2024 16:20:00 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;笔记出处&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#笔记出处&#34;&gt;#&lt;/a&gt; 笔记出处&lt;/h1&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMUFkNHkxejdnay8/c3BtX2lkX2Zyb209MzMzLjMzNy5zZWFyY2gtY2FyZC5hbGwuY2xpY2smYW1wO3ZkX3NvdXJjZT00YzQ4MjkwOWJmMDJjOTQ3NTBlNDkxNWI1YWZmZTA0ZA==&#34;&gt;B 站 Up&lt;/span&gt;&lt;br&gt;
- 关键概念：&lt;strong&gt;赔付了重疾，合同的现金价值将没有，合同是否终止看重疾赔付次数&lt;/strong&gt;。&lt;strong&gt;附加险所以没必要&lt;/strong&gt;。&lt;br&gt;
-购买保险 15 天内可以无理由退。&lt;/p&gt;
-&lt;h1 id=&#34;保险合同简读&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#保险合同简读&#34;&gt;#&lt;/a&gt; 保险合同简读&lt;/h1&gt;
-&lt;p&gt;保险合同：和保险公司签署的保险内容。大致分为以下内容。（加粗为重点关注对象）&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;保险单&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;现金价值表&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;投保资料&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;保险条款&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;服务指南&lt;/li&gt;
-&lt;li&gt;保险费收据&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;保险单&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#保险单&#34;&gt;#&lt;/a&gt; 保险单&lt;/h2&gt;
-&lt;p&gt;保险单中的一些基本信息&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;保险公司的盖章：说明了合同的合法性。&lt;/li&gt;
-&lt;li&gt;投保人：&lt;strong&gt;为这份保险付钱的人&lt;/strong&gt;。同时拥有这份保险的所有权。&lt;/li&gt;
-&lt;li&gt;被保险人：&lt;strong&gt;被保障的人&lt;/strong&gt;。保险实际生效的人。保险费用根据这个人计算的。&lt;/li&gt;
-&lt;li&gt;身故受益人：被保险人受了重疾去世后，保险公司的钱赔付的人。
-&lt;ul&gt;
-&lt;li&gt;一般不带。如购买了身故保险则会携带。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;购买了最好是指定受益人&lt;/strong&gt;。不指定默认是法定受益人。不指定的情况下会程序比较繁琐。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;保险的险种、保额、交费年限、频率期限等信息。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;现金价值表&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#现金价值表&#34;&gt;#&lt;/a&gt; 现金价值表&lt;/h2&gt;
-&lt;p&gt;代表这份合同的价值。值多少钱。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;合同属于投保人。投保人身故，则属于被保险人以及被保险人继承人。&lt;/li&gt;
-&lt;li&gt;合同是有价值的。现金价值表列举了该合同在对应的年限所代表的价值。
-&lt;ul&gt;
-&lt;li&gt;不同年限价值不同。会在某个年限达到高峰。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;合同也是可以用于抵押贷款。贷款上限是现金价值 80%。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;投保资料&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#投保资料&#34;&gt;#&lt;/a&gt; 投保资料&lt;/h2&gt;
-&lt;p&gt;投保单的完整版。&lt;br&gt;
-注意点：需要仔细的检查投保资料，看健康告知上是否有未告知的。&lt;br&gt;
-&lt;img data-src=&#34;https://node-picture-of-typora.oss-cn-hangzhou.aliyuncs.com/image-for-typora/%E9%87%8D%E7%96%BE%E9%99%A9%E6%8A%95%E4%BF%9D%E5%8D%95%E6%B3%A8%E6%84%8F%E7%82%B9.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;保险条款&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#保险条款&#34;&gt;#&lt;/a&gt; 保险条款‘&lt;/h2&gt;
-&lt;p&gt;暂无说明，但仍需仔细核实。&lt;/p&gt;
-&lt;h1 id=&#34;重疾险的核心保障&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#重疾险的核心保障&#34;&gt;#&lt;/a&gt; 重疾险的核心保障&lt;/h1&gt;
-&lt;p&gt;重疾的定义是国家统一的标准。&lt;br&gt;
-重疾险对于这 28 种疾病是必须的保障是由 2020 年保险和医师协会共同制定的。&lt;br&gt;
-一下的疾病分布表可以看出 28 种疾病之外的占比很小。&lt;br&gt;
-故此重疾险看重的是保额。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://node-picture-of-typora.oss-cn-hangzhou.aliyuncs.com/image-for-typora/%E9%87%8D%E7%96%BE%E9%99%A9%E7%96%BE%E7%97%85%E5%8E%9F%E5%9B%A0%E5%8D%A0%E6%AF%94%E8%A1%A8.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h1 id=&#34;重疾险的设计思路和理念&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#重疾险的设计思路和理念&#34;&gt;#&lt;/a&gt; 重疾险的设计思路和理念&lt;/h1&gt;
-&lt;p&gt;前提：重疾的标准是统一的。&lt;br&gt;
-差异化的设计思路：分级赔付。&lt;br&gt;
-对于不同症状赔付的保额比例不同&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;轻症 “：30% 保额&lt;/li&gt;
-&lt;li&gt;中症：50-60% 保额。&lt;/li&gt;
-&lt;li&gt;重症：100% 保额。&lt;br&gt;
-相应的重症都会有对应的轻中症。一般不需要去比较这些。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;重疾险的三种分级方式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#重疾险的三种分级方式&#34;&gt;#&lt;/a&gt; 重疾险的三种分级方式&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;按时间分级
-&lt;ul&gt;
-&lt;li&gt;可能会按照时间段分级，不同年龄段赔付的保额不同。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;按疾病严重程度分级
-&lt;ul&gt;
-&lt;li&gt;遵循重的重赔，轻的轻赔的概念。划分出更轻、更重的赔付 比例保额。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;按次数分级
-&lt;ul&gt;
-&lt;li&gt;单种疾病多次赔。高复发种类的疾病在约定期限内复发可以多次赔付。&lt;/li&gt;
-&lt;li&gt;多种疾病多次赔。不同种类的疾病可以多次赔付。
-&lt;ul&gt;
-&lt;li&gt;分组：按照某些规则被划分到同一组内的疾病只能赔付一种。
-&lt;ul&gt;
-&lt;li&gt;举例：A 组：疾病 1，疾病 2。B 组：疾病 3。在合同有效期内，得了疾病 1 赔付了疾病 1，那么即使后面得了疾病 2 那么也而无法赔付。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;不分组：只要是不同的疾病均可以赔付。
-&lt;ul&gt;
-&lt;li&gt;举例：A 组：疾病 1，疾病 2。B 组：疾病 3。在合同有效期内，得了疾病 1 赔付了疾病 1，后面得了疾病 2 也是可以赔付的。&lt;br&gt;
-推荐：== 恶性肿瘤赔付（单疾病多次赔）&amp;gt; 不分组赔付 &amp;gt; 分组赔付 ==&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://node-picture-of-typora.oss-cn-hangzhou.aliyuncs.com/image-for-typora/%E9%87%8D%E7%96%BE%E9%99%A9%E7%9A%84%E5%88%86%E7%BA%A7%E6%96%B9%E5%BC%8F.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h1 id=&#34;保障期限&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#保障期限&#34;&gt;#&lt;/a&gt; 保障期限&lt;/h1&gt;
-&lt;p&gt;合同 = 专有责任 + 保障期限。&lt;br&gt;
-蓝色的线：保费&lt;br&gt;
-橙色的线：现金价值。&lt;br&gt;
-定期的：都是消费型。&lt;br&gt;
-具体选择看自己&lt;br&gt;
-&lt;img data-src=&#34;https://node-picture-of-typora.oss-cn-hangzhou.aliyuncs.com/image-for-typora/%E9%87%8D%E7%96%BE%E9%99%A9%E7%9A%84%E5%88%86%E7%B1%BB.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h1 id=&#34;重疾险的多种形态&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#重疾险的多种形态&#34;&gt;#&lt;/a&gt; 重疾险的多种形态&lt;/h1&gt;
-&lt;p&gt;可以和其他保险共同组成。&lt;br&gt;
-终身重疾 + 终身寿险 = 储蓄型重疾险。&lt;br&gt;
-终身重疾 + 分红险 = 分红型重疾险。&lt;br&gt;
-终身重疾 + 年金险 = 返还型重疾险。&lt;/p&gt;
-&lt;p&gt;汇总点：拆开往往是最优的。&lt;/p&gt;
-&lt;h1 id=&#34;选购逻辑&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#选购逻辑&#34;&gt;#&lt;/a&gt; 选购逻辑&lt;/h1&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://node-picture-of-typora.oss-cn-hangzhou.aliyuncs.com/image-for-typora/%E9%87%8D%E7%96%BE%E9%99%A9%E9%80%89%E8%B4%AD%E9%80%BB%E8%BE%91.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2023/12/5076ee800a47.html</guid>
-            <title></title>
-            <link>http://example.com/2023/12/5076ee800a47.html</link>
-            <pubDate>Sun, 17 Dec 2023 19:25:39 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;前提说明&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前提说明&#34;&gt;#&lt;/a&gt; 前提说明&lt;/h1&gt;
+</content>
+        <updated>2024-01-07T12:39:33.599Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2023/12/5076ee800a47.html</id>
+        <title></title>
+        <link rel="alternate" href="http://example.com/2023/12/5076ee800a47.html"/>
+        <content type="html">&lt;h1 id=&#34;前提说明&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前提说明&#34;&gt;#&lt;/a&gt; 前提说明&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Docker 可以在 MAC、Windows、Linux 系统上安装。&lt;/li&gt;
 &lt;li&gt;Docker&lt;mark&gt; 不是一个通用的容器工具&lt;/mark&gt;。&lt;mark&gt;依赖于 Liunx 环境&lt;/mark&gt;。&lt;/li&gt;
@@ -404,14 +185,14 @@ CREATED： 镜像的创建时间&lt;br&gt;
 &lt;img data-src=&#34;https://node-picture-of-typora.oss-cn-hangzhou.aliyuncs.com/image-for-typora/Docker%E6%A1%8C%E9%9D%A2%E7%89%88%E6%8B%A5%E6%9C%89%E7%9A%84%E6%8F%92%E4%BB%B6.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;docker引擎&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#docker引擎&#34;&gt;#&lt;/a&gt; Docker 引擎&lt;/h3&gt;
 &lt;p&gt;==Docker 引擎是 Docker 的核心组件，用于构建和运行容器化应用程序。== 它是一个轻量级的、可移植的容器运行时环境，&lt;mark&gt;适用于服务器和云环境&lt;/mark&gt;。Docker 引擎提供了一组命令行工具，如 Docker CLI 和 Docker Compose，用于管理和操作容器。与 Docker 桌面版相比，Docker 引擎更加适用于服务器环境，可以通过命令行界面进行远程管理和自动化操作。&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2023/11/a9b903c46827.html</guid>
-            <title>基础</title>
-            <link>http://example.com/2023/11/a9b903c46827.html</link>
-            <pubDate>Tue, 14 Nov 2023 19:57:10 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;docker简介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#docker简介&#34;&gt;#&lt;/a&gt; Docker 简介&lt;/h1&gt;
+</content>
+        <updated>2023-12-17T11:25:39.120Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2023/11/a9b903c46827.html</id>
+        <title>基础</title>
+        <link rel="alternate" href="http://example.com/2023/11/a9b903c46827.html"/>
+        <content type="html">&lt;h1 id=&#34;docker简介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#docker简介&#34;&gt;#&lt;/a&gt; Docker 简介&lt;/h1&gt;
 &lt;h2 id=&#34;docker生成背景&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#docker生成背景&#34;&gt;#&lt;/a&gt; Docker 生成背景&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;由于各种配置、开发环境的不同（例如各种版本不一致的问题，mysql、java、redis 等），导致了不同人员使用系统时的各种问题。&lt;/li&gt;
@@ -470,66 +251,7 @@ CREATED： 镜像的创建时间&lt;br&gt;
 &lt;li&gt;Docker 官网：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZG9ja2VyLmNvbS8=&#34;&gt;https://www.docker.com/&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Docker 镜像文件的官网：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9odWIuZG9ja2VyLmNvbS8=&#34;&gt;https://hub.docker.com/&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2023/11/84e258cfff68.html</guid>
-            <title>使用索引的注意事项</title>
-            <link>http://example.com/2023/11/84e258cfff68.html</link>
-            <pubDate>Tue, 14 Nov 2023 19:57:10 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;联表&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#联表&#34;&gt;#&lt;/a&gt; 联表&lt;/h1&gt;
-&lt;h2 id=&#34;规则&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#规则&#34;&gt;#&lt;/a&gt; 规则&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;关联字段需要加索引。&lt;/li&gt;
-&lt;li&gt;关联的字段需要保证 ** 校对规则 (collation)、类型、长度保持一致。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;遇到过的问题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#遇到过的问题&#34;&gt;#&lt;/a&gt; 遇到过的问题&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;联表的关联字段都加了索引，但是 explain 发现并没有使用索引&lt;br&gt;
-解决：不符合规则 2。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2023/11/d4b98fbed4f8.html</guid>
-            <title>hello-world</title>
-            <link>http://example.com/2023/11/d4b98fbed4f8.html</link>
-            <pubDate>Tue, 07 Nov 2023 20:52:02 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
-&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo new &lt;span class=&#34;string&#34;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s&#34;&gt;Writing&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=&#34;&gt;Server&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s&#34;&gt;Generating&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2023/11/5d31ddd2499b.html</guid>
-            <title>Explain查询优化</title>
-            <link>http://example.com/2023/11/5d31ddd2499b.html</link>
-            <pubDate>Tue, 07 Nov 2023 20:52:02 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;explain&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#explain&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXYubXlzcWwuY29tL2RvYy9yZWZtYW4vNS43L2VuL3VzaW5nLWV4cGxhaW4uaHRtbA==&#34;&gt;Explain&lt;/span&gt; 简介&lt;/h1&gt;
-&lt;p&gt;Explain 语句提供了有关&lt;mark&gt; Mysql 语句如何执行的信息&lt;/mark&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Explain 适用于 select、update、insert、delete 语句。&lt;/li&gt;
-&lt;li&gt;Explain 和可适用的语句一起执行时，MySQL 会展示可适用语句的执行计划的信息。也就是 MySQL 解释了它将&lt;mark&gt;如何处理该语句&lt;/mark&gt;，包括有关&lt;mark&gt;表如何连接以及连接顺序的信息&lt;/mark&gt;。
-&lt;ul&gt;
-&lt;li&gt;示例：```explain select * from  users;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;当与可解释语句一起 Explain 使用 时，它显示在指定连接中执行的语句的执行计划&lt;/li&gt;
-&lt;/ul&gt;
- ]]></description>
-        </item>
-    </channel>
-</rss>
+</content>
+        <updated>2023-11-14T11:57:10.000Z</updated>
+    </entry>
+</feed>

@@ -3,11 +3,11 @@
     <id>http://example.com</id>
     <title>Hexo</title>
     <link href="http://example.com" />
-    <updated>2024-01-16T11:28:13.210Z</updated>
+    <updated>2024-01-16T13:08:00.000Z</updated>
     <entry>
-        <id>http://example.com/2024/01/2a1d492adb77.html</id>
-        <title></title>
-        <link rel="alternate" href="http://example.com/2024/01/2a1d492adb77.html"/>
+        <id>http://example.com/2024/01/c5a469d6786f.html</id>
+        <title>社会保险（社保）</title>
+        <link rel="alternate" href="http://example.com/2024/01/c5a469d6786f.html"/>
         <content type="html">&lt;h1 id=&#34;主要包含的项目&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#主要包含的项目&#34;&gt;#&lt;/a&gt; 主要包含的项目&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;养老保险&lt;/li&gt;
@@ -93,7 +93,7 @@
 统筹账户：保费大部分的流向。用于发放给可以领取养老金的人以及报销医疗费用。&lt;br&gt;
 个人账户：保费小部分的流向。可供自己支配使用的。如医保报销。&lt;/p&gt;
 </content>
-        <updated>2024-01-16T11:28:13.210Z</updated>
+        <updated>2024-01-16T13:08:00.000Z</updated>
     </entry>
     <entry>
         <id>http://example.com/2024/01/e1b05e3ef41c.html</id>
@@ -153,9 +153,16 @@ CREATED： 镜像的创建时间&lt;br&gt;
         <updated>2024-01-07T12:39:33.599Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2024/01/da0f5d84a34e.html</id>
-        <title></title>
-        <link rel="alternate" href="http://example.com/2024/01/da0f5d84a34e.html"/>
+        <id>http://example.com/2024/01/ba3fa3c6552e.html</id>
+        <title>Cron表达式的基本使用</title>
+        <link rel="alternate" href="http://example.com/2024/01/ba3fa3c6552e.html"/>
+        <content type="html"></content>
+        <updated>2024-01-02T08:20:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2024/01/622f00a16f22.html</id>
+        <title>重疾险</title>
+        <link rel="alternate" href="http://example.com/2024/01/622f00a16f22.html"/>
         <content type="html">&lt;h1 id=&#34;笔记出处&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#笔记出处&#34;&gt;#&lt;/a&gt; 笔记出处&lt;/h1&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMUFkNHkxejdnay8/c3BtX2lkX2Zyb209MzMzLjMzNy5zZWFyY2gtY2FyZC5hbGwuY2xpY2smYW1wO3ZkX3NvdXJjZT00YzQ4MjkwOWJmMDJjOTQ3NTBlNDkxNWI1YWZmZTA0ZA==&#34;&gt;B 站 Up&lt;/span&gt;&lt;br&gt;
  关键概念：&lt;strong&gt;赔付了重疾，合同的现金价值将没有，合同是否终止看重疾赔付次数&lt;/strong&gt;。&lt;strong&gt;附加险所以没必要&lt;/strong&gt;。&lt;br&gt;
@@ -267,27 +274,7 @@ CREATED： 镜像的创建时间&lt;br&gt;
 &lt;h1 id=&#34;选购逻辑&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#选购逻辑&#34;&gt;#&lt;/a&gt; 选购逻辑&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://node-picture-of-typora.oss-cn-hangzhou.aliyuncs.com/image-for-typora/%E9%87%8D%E7%96%BE%E9%99%A9%E9%80%89%E8%B4%AD%E9%80%BB%E8%BE%91.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </content>
-        <updated>2024-01-07T03:33:16.218Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/2023/12/28ec38d85fc3.html</id>
-        <title></title>
-        <link rel="alternate" href="http://example.com/2023/12/28ec38d85fc3.html"/>
-        <content type="html">&lt;h1 id=&#34;联表&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#联表&#34;&gt;#&lt;/a&gt; 联表&lt;/h1&gt;
-&lt;h2 id=&#34;规则&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#规则&#34;&gt;#&lt;/a&gt; 规则&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;关联字段需要加索引。&lt;/li&gt;
-&lt;li&gt;关联的字段需要保证 ** 校对规则 (collation)、类型、长度保持一致。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;遇到过的问题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#遇到过的问题&#34;&gt;#&lt;/a&gt; 遇到过的问题&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;联表的关联字段都加了索引，但是 explain 发现并没有使用索引&lt;br&gt;
-解决：不符合规则 2。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-</content>
-        <updated>2023-12-20T02:31:55.784Z</updated>
+        <updated>2024-01-02T08:20:00.000Z</updated>
     </entry>
     <entry>
         <id>http://example.com/2023/12/5076ee800a47.html</id>
@@ -417,31 +404,6 @@ CREATED： 镜像的创建时间&lt;br&gt;
         <updated>2023-12-17T11:25:39.120Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/12/dc9a13a0036c.html</id>
-        <title></title>
-        <link rel="alternate" href="http://example.com/2023/12/dc9a13a0036c.html"/>
-        <content type="html">&lt;h1 id=&#34;explain&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#explain&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXYubXlzcWwuY29tL2RvYy9yZWZtYW4vNS43L2VuL3VzaW5nLWV4cGxhaW4uaHRtbA==&#34;&gt;Explain&lt;/span&gt; 简介&lt;/h1&gt;
-&lt;p&gt;Explain 语句提供了有关&lt;mark&gt; Mysql 语句如何执行的信息&lt;/mark&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Explain 适用于 select、update、insert、delete 语句。&lt;/li&gt;
-&lt;li&gt;Explain 和可适用的语句一起执行时，MySQL 会展示可适用语句的执行计划的信息。也就是 MySQL 解释了它将&lt;mark&gt;如何处理该语句&lt;/mark&gt;，包括有关&lt;mark&gt;表如何连接以及连接顺序的信息&lt;/mark&gt;。
-&lt;ul&gt;
-&lt;li&gt;示例：```explain select * from  users;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;当与可解释语句一起 Explain 使用 时，它显示在指定连接中执行的语句的执行计划&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-        <updated>2023-12-14T09:41:53.286Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/2023/12/3ee6a7b833a2.html</id>
-        <title></title>
-        <link rel="alternate" href="http://example.com/2023/12/3ee6a7b833a2.html"/>
-        <content type="html"></content>
-        <updated>2023-12-11T02:55:26.545Z</updated>
-    </entry>
-    <entry>
         <id>http://example.com/2023/11/a9b903c46827.html</id>
         <title>基础</title>
         <link rel="alternate" href="http://example.com/2023/11/a9b903c46827.html"/>
@@ -508,11 +470,24 @@ CREATED： 镜像的创建时间&lt;br&gt;
         <updated>2023-11-14T11:57:10.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/11/1ffd7ed29f56.html</id>
-        <title></title>
-        <link rel="alternate" href="http://example.com/2023/11/1ffd7ed29f56.html"/>
-        <content type="html"></content>
-        <updated>2023-11-10T03:23:52.152Z</updated>
+        <id>http://example.com/2023/11/84e258cfff68.html</id>
+        <title>使用索引的注意事项</title>
+        <link rel="alternate" href="http://example.com/2023/11/84e258cfff68.html"/>
+        <content type="html">&lt;h1 id=&#34;联表&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#联表&#34;&gt;#&lt;/a&gt; 联表&lt;/h1&gt;
+&lt;h2 id=&#34;规则&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#规则&#34;&gt;#&lt;/a&gt; 规则&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;关联字段需要加索引。&lt;/li&gt;
+&lt;li&gt;关联的字段需要保证 ** 校对规则 (collation)、类型、长度保持一致。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;遇到过的问题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#遇到过的问题&#34;&gt;#&lt;/a&gt; 遇到过的问题&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;联表的关联字段都加了索引，但是 explain 发现并没有使用索引&lt;br&gt;
+解决：不符合规则 2。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+</content>
+        <updated>2023-11-14T11:57:10.000Z</updated>
     </entry>
     <entry>
         <id>http://example.com/2023/11/d4b98fbed4f8.html</id>
@@ -532,6 +507,24 @@ CREATED： 镜像的创建时间&lt;br&gt;
 &lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
+</content>
+        <updated>2023-11-07T12:52:02.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2023/11/5d31ddd2499b.html</id>
+        <title>Explain查询优化</title>
+        <link rel="alternate" href="http://example.com/2023/11/5d31ddd2499b.html"/>
+        <content type="html">&lt;h1 id=&#34;explain&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#explain&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXYubXlzcWwuY29tL2RvYy9yZWZtYW4vNS43L2VuL3VzaW5nLWV4cGxhaW4uaHRtbA==&#34;&gt;Explain&lt;/span&gt; 简介&lt;/h1&gt;
+&lt;p&gt;Explain 语句提供了有关&lt;mark&gt; Mysql 语句如何执行的信息&lt;/mark&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Explain 适用于 select、update、insert、delete 语句。&lt;/li&gt;
+&lt;li&gt;Explain 和可适用的语句一起执行时，MySQL 会展示可适用语句的执行计划的信息。也就是 MySQL 解释了它将&lt;mark&gt;如何处理该语句&lt;/mark&gt;，包括有关&lt;mark&gt;表如何连接以及连接顺序的信息&lt;/mark&gt;。
+&lt;ul&gt;
+&lt;li&gt;示例：```explain select * from  users;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;当与可解释语句一起 Explain 使用 时，它显示在指定连接中执行的语句的执行计划&lt;/li&gt;
+&lt;/ul&gt;
 </content>
         <updated>2023-11-07T12:52:02.000Z</updated>
     </entry>

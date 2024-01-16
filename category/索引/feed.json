@@ -1,17 +1,9 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Hexo • All posts by \"杂记\" category",
+    "title": "Hexo • All posts by \"索引\" category",
     "description": "",
     "home_page_url": "http://example.com",
     "items": [
-        {
-            "id": "http://example.com/2024/01/ba3fa3c6552e.html",
-            "url": "http://example.com/2024/01/ba3fa3c6552e.html",
-            "title": "Cron表达式的基本使用",
-            "date_published": "2024-01-02T08:20:00.000Z",
-            "content_html": "",
-            "tags": []
-        },
         {
             "id": "http://example.com/2023/11/84e258cfff68.html",
             "url": "http://example.com/2023/11/84e258cfff68.html",
