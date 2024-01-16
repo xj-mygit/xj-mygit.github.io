@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Hexo • Posts by &#34;杂记&#34; category</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Mon, 11 Dec 2023 10:55:26 +0800</pubDate>
+        <lastBuildDate>Mon, 11 Dec 2023 10:55:26 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/12/3ee6a7b833a2.html</guid>
+            <title></title>
+            <link>http://example.com/2023/12/3ee6a7b833a2.html</link>
+            <pubDate>Mon, 11 Dec 2023 10:55:26 +0800</pubDate>
+            <description><![CDATA[  ]]></description>
+        </item>
+    </channel>
+</rss>

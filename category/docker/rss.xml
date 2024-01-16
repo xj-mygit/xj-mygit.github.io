@@ -5,12 +5,196 @@
         <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Tue, 14 Nov 2023 19:57:10 +0800</pubDate>
-        <lastBuildDate>Tue, 14 Nov 2023 19:57:10 +0800</lastBuildDate>
+        <pubDate>Sun, 07 Jan 2024 20:39:33 +0800</pubDate>
+        <lastBuildDate>Sun, 07 Jan 2024 20:39:33 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">http://example.com/2023/11/b27133502b1c.html</guid>
+            <guid isPermalink="true">http://example.com/2024/01/e1b05e3ef41c.html</guid>
+            <title></title>
+            <link>http://example.com/2024/01/e1b05e3ef41c.html</link>
+            <pubDate>Sun, 07 Jan 2024 20:39:33 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;帮助启动类命令&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#帮助启动类命令&#34;&gt;#&lt;/a&gt; 帮助启动类命令&lt;/h1&gt;
+&lt;p&gt;&lt;mark&gt;通过 docker --help 以及 docker 命令 --help 查看 docker 命令的使用。&lt;/mark&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;启动 Docker：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;systemctl start docker&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;停止 Docker：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;systemctl stop docker&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;重启 Docker&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;systemctl restart docker&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;查看 Docker 状态&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;systemctl status docker&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;开机启动 Docker&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;systemctl enable docker&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;查看 Docker 概要信息&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;docker info&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;查看 Docker 总体帮助文档&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;docker --help&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;查看 Docker 命令帮助文档&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;docker 具体命令 --help&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;镜像命令&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#镜像命令&#34;&gt;#&lt;/a&gt; 镜像命令&lt;/h1&gt;
+&lt;h2 id=&#34;docker-images&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#docker-images&#34;&gt;#&lt;/a&gt; Docker images&lt;/h2&gt;
+&lt;p&gt;列出 ==&lt;strong&gt; 本地主机&lt;/strong&gt; == 上的镜像。&lt;br&gt;
+OPTIONS：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;-a：列出所有的镜像 ==（含历史镜像）&lt;/li&gt;
+&lt;li&gt;-q：只显示镜像 id&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;[root@VM-4-8-centos docker]# docker images&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;REPOSITORY TAG IMAGE ID CREATED SIZE&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;字段说明：&lt;br&gt;
+REPOSITORY：镜像的仓库源&lt;br&gt;
+ TAG：镜像的标签版本号&lt;br&gt;
+ IMAGE ID： 镜像的 ID&lt;br&gt;
+CREATED： 镜像的创建时间&lt;br&gt;
+ SIZE：镜像的大小&lt;br&gt;
+同一个仓库源可以有多个 TAG 版本。使用&lt;strong&gt; REPOSITORY:TAG&lt;/strong&gt; 可以定义指定版本的仓库源。如&lt;strong&gt;不指定则默认最新&lt;/strong&gt;。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/12/5076ee800a47.html</guid>
+            <title></title>
+            <link>http://example.com/2023/12/5076ee800a47.html</link>
+            <pubDate>Sun, 17 Dec 2023 19:25:39 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;前提说明&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前提说明&#34;&gt;#&lt;/a&gt; 前提说明&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker 可以在 MAC、Windows、Linux 系统上安装。&lt;/li&gt;
+&lt;li&gt;Docker&lt;mark&gt; 不是一个通用的容器工具&lt;/mark&gt;。&lt;mark&gt;依赖于 Liunx 环境&lt;/mark&gt;。&lt;/li&gt;
+&lt;li&gt;Docker 实质：在 Linux 下，制造了一个隔离的文件环境。执行效率等同于所部署的 Linux 主机。&lt;/li&gt;
+&lt;li&gt;安装：具体见&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLmRvY2tlci5jb20vZGVza3RvcC9pbnN0YWxsL21hYy1pbnN0YWxsLw==&#34;&gt;官网&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;还可以安装一个 linux 系统的虚拟机然后安装 Docker&lt;/li&gt;
+&lt;li&gt;&lt;img data-src=&#34;https://node-picture-of-typora.oss-cn-hangzhou.aliyuncs.com/image-for-typora/Docker-%E5%9F%BA%E7%A1%80-03.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;检查 liunx 系统内核以及系统的命令：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;[root@VM-4-8-centos ~]# cat /etc/redhat-release&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;CentOS Linux release 7.6.1810 (Core)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;[root@VM-4-8-centos ~]# uname -r&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3.10.0-1160.99.1.el7.x86_64&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;基本组成-狭义镜像只说明docker&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基本组成-狭义镜像只说明docker&#34;&gt;#&lt;/a&gt; &lt;strong&gt;基本组成&lt;/strong&gt; （狭义镜像只说明 Docker）&lt;/h1&gt;
+&lt;h3 id=&#34;镜像image&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#镜像image&#34;&gt;#&lt;/a&gt; 镜像（image）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;镜像通俗来说是一个&lt;strong&gt;只读&lt;/strong&gt;的模板。一个镜像可以创建多个容器。&lt;/li&gt;
+&lt;li&gt;镜像拥有一个完整且最小&lt;strong&gt; root 文件系统&lt;/strong&gt;。例如官方的 Centos:7 则是包含了完整的一套 Centos:7 最小 root 文件系统。&lt;/li&gt;
+&lt;li&gt;容器的组成部分简单概括为两部分：
+&lt;ul&gt;
+&lt;li&gt;完整且最小的 Linux 系统：提供可以运行的 Linux 环境，只加载 Linux 运行的所需部分。&lt;/li&gt;
+&lt;li&gt;应用程序：需要运行的应用程序。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;容器container&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#容器container&#34;&gt;#&lt;/a&gt; 容器（container）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;容器是镜像内容的实现。&lt;/li&gt;
+&lt;li&gt;镜像和容器就如同 Java 中的类和实例。镜像提供了所有可以用的东西。而容器则是可以实际创建出容器内的东西。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;仓库repository&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#仓库repository&#34;&gt;#&lt;/a&gt; 仓库（repository）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;仓库是官方远程&lt;strong&gt;集中存放镜像文件&lt;/strong&gt;的场所。&lt;/li&gt;
+&lt;li&gt;类似于 Git 仓库。是由各个使用者上传到远程仓库。&lt;/li&gt;
+&lt;li&gt;仓库分为&lt;strong&gt;公有&lt;/strong&gt; 和&lt;strong&gt;私有&lt;/strong&gt;两种类型，最大的公开仓库是 DockerHub。 国内公开仓库有阿里云、网易云等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;原理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#原理&#34;&gt;#&lt;/a&gt; 原理&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker 在宿主机上会启动一个守护进程。可以通过客户端连接到宿主机对 Docker 做一系列操作。&lt;br&gt;
+&lt;img data-src=&#34;https://node-picture-of-typora.oss-cn-hangzhou.aliyuncs.com/image-for-typora/Docker.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;架构图解&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#架构图解&#34;&gt;#&lt;/a&gt; 架构图解&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://node-picture-of-typora.oss-cn-hangzhou.aliyuncs.com/image-for-typora/Docker-%E6%9E%B6%E6%9E%84%E5%9B%BE.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;安装&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#安装&#34;&gt;#&lt;/a&gt; 安装&lt;/h1&gt;
+&lt;p&gt;Docker 的安装分为桌面版和&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLmRvY2tlci5jb20vZGVza3RvcC8=&#34;&gt;非桌面版&lt;/span&gt;。&lt;br&gt;
+非桌面版具体安装：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLmRvY2tlci5jb20vZW5naW5lL2luc3RhbGwv&#34;&gt;官网&lt;/span&gt;&lt;br&gt;
+这两种方式均有分门别类的安装方式：如桌面版分为 windows、macos、linux；&lt;br&gt;
+非桌面版（引擎）：Centos、debian、fedora 等方式。具体看官网介绍。&lt;/p&gt;
+&lt;h2 id=&#34;centos&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#centos&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLmRvY2tlci5jb20vZW5naW5lL2luc3RhbGwvY2VudG9zLw==&#34;&gt;Centos&lt;/span&gt; 安装非桌面版（Docker 引擎）&lt;/h2&gt;
+&lt;h3 id=&#34;1-操作系统要求&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-操作系统要求&#34;&gt;#&lt;/a&gt; 1. 操作系统要求&lt;/h3&gt;
+&lt;p&gt;操作系统需要在 Centos7 以上。&lt;/p&gt;
+&lt;h3 id=&#34;2-卸载旧版本&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-卸载旧版本&#34;&gt;#&lt;/a&gt; 2. 卸载旧版本&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;sudo yum remove docker \
+              docker-client \
+              docker-client-latest \
+              docker-common \
+              docker-latest \
+              docker-latest-logrotate \
+              docker-logrotate \
+              docker-engine
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;注意：&lt;mark&gt;卸载 Docker 时，不会删除 /var/lib/docker/ 下存储的镜像、容器、卷、网络&lt;/mark&gt;&lt;/p&gt;
+&lt;h3 id=&#34;3-安装方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-安装方法&#34;&gt;#&lt;/a&gt; 3. 安装方法&lt;/h3&gt;
+&lt;p&gt;官方提供 3 种方法：设置 Docker 存储库（推荐）、下载 RPM 包手动安装、自动化便捷脚本。这里使用第一种方法。&lt;/p&gt;
+&lt;h4 id=&#34;设置存储库&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#设置存储库&#34;&gt;#&lt;/a&gt; 设置存储库&lt;/h4&gt;
+&lt;p&gt;安装 yum-utils 软件包并设置存储库&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo yum install -y yum-utils&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;1-安装docker引擎&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-安装docker引擎&#34;&gt;#&lt;/a&gt; 1. 安装 Docker 引擎&lt;/h4&gt;
+&lt;h5 id=&#34;安装docker引擎-containerd-dockercompose&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#安装docker引擎-containerd-dockercompose&#34;&gt;#&lt;/a&gt; 安装 Docker 引擎、containerd、DockerCompose&lt;/h5&gt;
+&lt;p&gt;最新版：&lt;/p&gt;
+   &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;此命令会安装 Docker，但不会启动 Docker。它还创建一个  &lt;code&gt;docker&lt;/code&gt;  组，但是默认情况下不会将任何用户添加到该组。&lt;/p&gt;
+&lt;p&gt;具体版本：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;先列出&lt;mark&gt;符合操作系统&lt;/mark&gt;且&lt;mark&gt;在存储库中可用&lt;/mark&gt;的版本。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;yum list docker-ce --showduplicates | sort -r&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;docker-ce.x86_64    3:24.0.0-1.el8    docker-ce-stable&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;docker-ce.x86_64    3:23.0.6-1.el8    docker-ce-stable&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;...&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;选择自己需要的版本。然后通过完全限定的包名称安装特定版本。通过连字符 &amp;quot;-&amp;quot; 连接包名称和版本字符串。
+&lt;ol&gt;
+&lt;li&gt;包名称：docker-ce.x86_64 取 docker-ce&lt;/li&gt;
+&lt;li&gt;版本字符串：3:24.0.0-1.el8&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;将步骤 2 的完全限定包名称&lt;mark&gt;替换&lt;/mark&gt;掉命令行的 &amp;lt;version_string&amp;gt;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo yum install docker-ce-&amp;lt;VERSION_STRING&amp;gt; docker-ce-cli-&amp;lt;VERSION_STRING&amp;gt; containerd.io docker-buildx-plugin docker-compose-plugin&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;此命令会安装 Docker，但不会启动 Docker。它还创建一个  &lt;code&gt;docker&lt;/code&gt;  组，但是默认情况下不会将任何用户添加到该组。&lt;/p&gt;
+&lt;h4 id=&#34;2-启动docker&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-启动docker&#34;&gt;#&lt;/a&gt; 2. 启动 Docker&lt;/h4&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo systemctl start docker&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;3-验证是否安装成功&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-验证是否安装成功&#34;&gt;#&lt;/a&gt; 3. 验证是否安装成功&lt;/h4&gt;
+&lt;p&gt;此命令会下载一个 hello-world 镜像并运行。&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo docker run hello-world&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;此命令下载测试映像并在容器中运行它。当容器运行时，它会打印一条确认消息并退出&lt;/p&gt;
+&lt;h3 id=&#34;卸载docker&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#卸载docker&#34;&gt;#&lt;/a&gt; 卸载 Docker&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;卸载 Docker Engine、CLI、containerd 和 Docker Compose 软件包：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ sudo yum remove docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;主机上的映像、容器、卷或自定义配置文件不会自动删除。要删除所有映像、容器和卷： &lt;figure class=&#34;highlight console&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta prompt_&#34;&gt;$ &lt;/span&gt;&lt;span class=&#34;language-bash&#34;&gt;sudo &lt;span class=&#34;built_in&#34;&gt;rm&lt;/span&gt; -rf /var/lib/docker&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta prompt_&#34;&gt;$ &lt;/span&gt;&lt;span class=&#34;language-bash&#34;&gt;sudo &lt;span class=&#34;built_in&#34;&gt;rm&lt;/span&gt; -rf /var/lib/containerd&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;您必须手动删除任何编辑的配置文件。&lt;/p&gt;
+&lt;h1 id=&#34;阿里云镜像加速&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#阿里云镜像加速&#34;&gt;#&lt;/a&gt; 阿里云镜像加速&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;登入阿里云&lt;/li&gt;
+&lt;li&gt;产品与服务中找到&lt;strong&gt;镜像容器服务&lt;/strong&gt; - &amp;gt; &lt;strong&gt;镜像工具&lt;/strong&gt; - &amp;gt; &lt;strong&gt;镜像加速器&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;复制加速器地址。&lt;/li&gt;
+&lt;li&gt;&lt;mark&gt;选择对应的 linux 系统&lt;/mark&gt;在 /etc/docker/ 目录下的 daemon.json 文件中配置（下面是 centos 的）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo mkdir -p /etc/docker&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo tee /etc/docker/daemon.json &amp;lt;&amp;lt;-&amp;#x27;EOF&amp;#x27; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;quot;registry-mirrors&amp;quot;: [&amp;quot;https://udxftms9.mirror.aliyuncs.com&amp;quot;] &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;EOF &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo systemctl daemon-reload&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo systemctl restart docker&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;docker-一些术语的解释&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#docker-一些术语的解释&#34;&gt;#&lt;/a&gt; Docker 一些术语的解释&lt;/h1&gt;
+&lt;h2 id=&#34;docker桌面docker-desktop-和docker引擎docker-engine-docker-ce&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#docker桌面docker-desktop-和docker引擎docker-engine-docker-ce&#34;&gt;#&lt;/a&gt; Docker 桌面 (Docker desktop) 和 Docker 引擎（Docker Engine、Docker ce）&lt;/h2&gt;
+&lt;h3 id=&#34;docker-桌面版&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#docker-桌面版&#34;&gt;#&lt;/a&gt; Docker 桌面版&lt;/h3&gt;
+&lt;p&gt;Docker 桌面版是适用于&lt;strong&gt;桌面操作系统的完整 Docker 解决方案&lt;/strong&gt;。它提供了一个用户友好的图形界面，使得在桌面上使用 Docker 变得更加简单和直观。&lt;mark&gt;Docker 桌面版包括了 Docker 引擎、Docker CLI（命令行界面）和 Docker Compose 等工具，以及一些附加功能，如图形化容器管理、镜像仓库浏览器、容器日志查看器&lt;/mark&gt;等。Docker 桌面版适用于开发人员和系统管理员，可以方便地在桌面上构建、运行和管理容器化应用程序。&lt;br&gt;
+&lt;img data-src=&#34;https://node-picture-of-typora.oss-cn-hangzhou.aliyuncs.com/image-for-typora/Docker%E6%A1%8C%E9%9D%A2%E7%89%88%E6%8B%A5%E6%9C%89%E7%9A%84%E6%8F%92%E4%BB%B6.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;docker引擎&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#docker引擎&#34;&gt;#&lt;/a&gt; Docker 引擎&lt;/h3&gt;
+&lt;p&gt;==Docker 引擎是 Docker 的核心组件，用于构建和运行容器化应用程序。== 它是一个轻量级的、可移植的容器运行时环境，&lt;mark&gt;适用于服务器和云环境&lt;/mark&gt;。Docker 引擎提供了一组命令行工具，如 Docker CLI 和 Docker Compose，用于管理和操作容器。与 Docker 桌面版相比，Docker 引擎更加适用于服务器环境，可以通过命令行界面进行远程管理和自动化操作。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/11/a9b903c46827.html</guid>
             <title>基础</title>
-            <link>http://example.com/2023/11/b27133502b1c.html</link>
+            <link>http://example.com/2023/11/a9b903c46827.html</link>
             <pubDate>Tue, 14 Nov 2023 19:57:10 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;docker简介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#docker简介&#34;&gt;#&lt;/a&gt; Docker 简介&lt;/h1&gt;
 &lt;h2 id=&#34;docker生成背景&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#docker生成背景&#34;&gt;#&lt;/a&gt; Docker 生成背景&lt;/h2&gt;
@@ -28,6 +212,16 @@
 &lt;p&gt;&lt;mark&gt;Linux 容器技术&lt;/mark&gt;出现解决了这样一个问题，&lt;mark&gt;Docker 是基于此发展出来的&lt;/mark&gt;。&lt;/p&gt;
 &lt;p&gt;解决了：运行环境和配置问题的软件容器，方便做持续集成有助于整体发布的容器虚拟话技术。&lt;/p&gt;
 &lt;h2 id=&#34;容器与虚拟机的区别&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#容器与虚拟机的区别&#34;&gt;#&lt;/a&gt; 容器与虚拟机的区别&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;虚拟机是将操作系统的所有东西全部搬过来。&lt;/li&gt;
+&lt;li&gt;容器是将每一个进程所需的资源以及配置搬过来。&lt;/li&gt;
+&lt;li&gt;举例：以搬家举例子：
+&lt;ul&gt;
+&lt;li&gt;虚拟机就如同是将整栋楼房都保持原样的搬过去。&lt;/li&gt;
+&lt;li&gt;容器就如同是只将某样东西在新家的基础上搬过去。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;容器的发展&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -36,14 +230,31 @@
 &lt;p&gt;虚拟机&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;不影响宿主机的运行，而通过 == 宿主机的一个应用程序（虚拟机）== 创建出不同于宿主机的操作系统的多个实例。并在多个实例上安装部署各种应用。&lt;br&gt;
-缺点：&lt;/p&gt;
+&lt;strong&gt;缺点&lt;/strong&gt;：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;太重了，将整套操作系统的所有内容都搬来，导致资源占用多。&lt;/li&gt;
 &lt;li&gt;太慢了。启动到进入系统，所用时间过长。&lt;/li&gt;
-&lt;li&gt;步骤多。&lt;/li&gt;
+&lt;li&gt;步骤多。&lt;br&gt;
+&lt;img data-src=&#34;https://node-picture-of-typora.oss-cn-hangzhou.aliyuncs.com/image-for-typora/Docker-%E5%AD%A6%E4%B9%A0-%E5%9F%BA%E7%A1%80-01.png&#34; alt=&#34;Docker-学习-基础-01.png&#34;&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://node-picture-of-typora.oss-cn-hangzhou.aliyuncs.com/image-for-typora/Docker-%E5%AD%A6%E4%B9%A0-%E5%9F%BA%E7%A1%80-01.png&#34; alt=&#34;Docker-学习-基础-01.png&#34;&gt;&lt;br&gt;
-&lt;img data-src=&#34;https://node-picture-of-typora.oss-cn-hangzhou.aliyuncs.com/image-for-typora/20231128175528.png&#34; alt=&#34;image.png&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;容器&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;传统虚拟机技术是虚拟出一套硬件后，在其上运行一个完整操作系统，在该系统上再运行所需应用进程；&lt;/li&gt;
+&lt;li&gt;&lt;mark&gt;容器内的应用进程直接运行于宿主的内核&lt;/mark&gt;，容器内没有自己的内核且也没有进行硬件虚拟。因此容器要比传统虚拟机更为轻便。&lt;/li&gt;
+&lt;li&gt;&lt;mark&gt;每个容器之间互相隔离，每个容器有自己的文件系统，容器之间进程不会相互影响，能区分计算资源&lt;/mark&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;由于前面虚拟机存在某些缺点，Linux 发展出了另一种虚拟化技术：&lt;/p&gt;
+&lt;p&gt;Linux 容器（Linux Containers，缩写为 LXC）&lt;/p&gt;
+&lt;p&gt;Linux 容器是与系统其他部分隔离开的一系列进程，从另一个镜像运行，并由&lt;mark&gt;该镜像提供支持进程所需的全部文件&lt;/mark&gt;。容器提供的镜像包含了应用的所有依赖项，因而在从开发到测试再到生产的整个过程中，它都具有&lt;mark&gt;可移植性和一致性&lt;/mark&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;Linux 容器不是模拟一个完整的操作系统&lt;/mark&gt;而是对进程进行隔离。有了容器，就可以将软件运行所需的所有资源打包到一个隔离的容器中。&lt;mark&gt;容器与虚拟机不同，不需要捆绑一整套操作系统，只需要软件工作所需的库资源和设置&lt;/mark&gt;。系统因此而变得高效轻量并保证部署在任何环境中的软件都能始终如一地运行。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://node-picture-of-typora.oss-cn-hangzhou.aliyuncs.com/image-for-typora/Docker.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;docker网站&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#docker网站&#34;&gt;#&lt;/a&gt; Docker 网站&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker 官网：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZG9ja2VyLmNvbS8=&#34;&gt;https://www.docker.com/&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Docker 镜像文件的官网：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9odWIuZG9ja2VyLmNvbS8=&#34;&gt;https://hub.docker.com/&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
  ]]></description>
         </item>
     </channel>

@@ -3,11 +3,29 @@
     <id>http://example.com</id>
     <title>Hexo • Posts by &#34;学习&#34; category</title>
     <link href="http://example.com" />
-    <updated>2023-11-14T11:57:10.000Z</updated>
+    <updated>2023-12-14T09:41:53.286Z</updated>
     <entry>
-        <id>http://example.com/2023/11/b27133502b1c.html</id>
+        <id>http://example.com/2023/12/dc9a13a0036c.html</id>
+        <title></title>
+        <link rel="alternate" href="http://example.com/2023/12/dc9a13a0036c.html"/>
+        <content type="html">&lt;h1 id=&#34;explain&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#explain&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXYubXlzcWwuY29tL2RvYy9yZWZtYW4vNS43L2VuL3VzaW5nLWV4cGxhaW4uaHRtbA==&#34;&gt;Explain&lt;/span&gt; 简介&lt;/h1&gt;
+&lt;p&gt;Explain 语句提供了有关&lt;mark&gt; Mysql 语句如何执行的信息&lt;/mark&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Explain 适用于 select、update、insert、delete 语句。&lt;/li&gt;
+&lt;li&gt;Explain 和可适用的语句一起执行时，MySQL 会展示可适用语句的执行计划的信息。也就是 MySQL 解释了它将&lt;mark&gt;如何处理该语句&lt;/mark&gt;，包括有关&lt;mark&gt;表如何连接以及连接顺序的信息&lt;/mark&gt;。
+&lt;ul&gt;
+&lt;li&gt;示例：```explain select * from  users;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;当与可解释语句一起 Explain 使用 时，它显示在指定连接中执行的语句的执行计划&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <updated>2023-12-14T09:41:53.286Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2023/11/a9b903c46827.html</id>
         <title>基础</title>
-        <link rel="alternate" href="http://example.com/2023/11/b27133502b1c.html"/>
+        <link rel="alternate" href="http://example.com/2023/11/a9b903c46827.html"/>
         <content type="html">&lt;h1 id=&#34;docker简介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#docker简介&#34;&gt;#&lt;/a&gt; Docker 简介&lt;/h1&gt;
 &lt;h2 id=&#34;docker生成背景&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#docker生成背景&#34;&gt;#&lt;/a&gt; Docker 生成背景&lt;/h2&gt;
 &lt;ol&gt;
@@ -24,6 +42,16 @@
 &lt;p&gt;&lt;mark&gt;Linux 容器技术&lt;/mark&gt;出现解决了这样一个问题，&lt;mark&gt;Docker 是基于此发展出来的&lt;/mark&gt;。&lt;/p&gt;
 &lt;p&gt;解决了：运行环境和配置问题的软件容器，方便做持续集成有助于整体发布的容器虚拟话技术。&lt;/p&gt;
 &lt;h2 id=&#34;容器与虚拟机的区别&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#容器与虚拟机的区别&#34;&gt;#&lt;/a&gt; 容器与虚拟机的区别&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;虚拟机是将操作系统的所有东西全部搬过来。&lt;/li&gt;
+&lt;li&gt;容器是将每一个进程所需的资源以及配置搬过来。&lt;/li&gt;
+&lt;li&gt;举例：以搬家举例子：
+&lt;ul&gt;
+&lt;li&gt;虚拟机就如同是将整栋楼房都保持原样的搬过去。&lt;/li&gt;
+&lt;li&gt;容器就如同是只将某样东西在新家的基础上搬过去。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;容器的发展&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -32,14 +60,31 @@
 &lt;p&gt;虚拟机&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;不影响宿主机的运行，而通过 == 宿主机的一个应用程序（虚拟机）== 创建出不同于宿主机的操作系统的多个实例。并在多个实例上安装部署各种应用。&lt;br&gt;
-缺点：&lt;/p&gt;
+&lt;strong&gt;缺点&lt;/strong&gt;：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;太重了，将整套操作系统的所有内容都搬来，导致资源占用多。&lt;/li&gt;
 &lt;li&gt;太慢了。启动到进入系统，所用时间过长。&lt;/li&gt;
-&lt;li&gt;步骤多。&lt;/li&gt;
+&lt;li&gt;步骤多。&lt;br&gt;
+&lt;img data-src=&#34;https://node-picture-of-typora.oss-cn-hangzhou.aliyuncs.com/image-for-typora/Docker-%E5%AD%A6%E4%B9%A0-%E5%9F%BA%E7%A1%80-01.png&#34; alt=&#34;Docker-学习-基础-01.png&#34;&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://node-picture-of-typora.oss-cn-hangzhou.aliyuncs.com/image-for-typora/Docker-%E5%AD%A6%E4%B9%A0-%E5%9F%BA%E7%A1%80-01.png&#34; alt=&#34;Docker-学习-基础-01.png&#34;&gt;&lt;br&gt;
-&lt;img data-src=&#34;https://node-picture-of-typora.oss-cn-hangzhou.aliyuncs.com/image-for-typora/20231128175528.png&#34; alt=&#34;image.png&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;容器&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;传统虚拟机技术是虚拟出一套硬件后，在其上运行一个完整操作系统，在该系统上再运行所需应用进程；&lt;/li&gt;
+&lt;li&gt;&lt;mark&gt;容器内的应用进程直接运行于宿主的内核&lt;/mark&gt;，容器内没有自己的内核且也没有进行硬件虚拟。因此容器要比传统虚拟机更为轻便。&lt;/li&gt;
+&lt;li&gt;&lt;mark&gt;每个容器之间互相隔离，每个容器有自己的文件系统，容器之间进程不会相互影响，能区分计算资源&lt;/mark&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;由于前面虚拟机存在某些缺点，Linux 发展出了另一种虚拟化技术：&lt;/p&gt;
+&lt;p&gt;Linux 容器（Linux Containers，缩写为 LXC）&lt;/p&gt;
+&lt;p&gt;Linux 容器是与系统其他部分隔离开的一系列进程，从另一个镜像运行，并由&lt;mark&gt;该镜像提供支持进程所需的全部文件&lt;/mark&gt;。容器提供的镜像包含了应用的所有依赖项，因而在从开发到测试再到生产的整个过程中，它都具有&lt;mark&gt;可移植性和一致性&lt;/mark&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;Linux 容器不是模拟一个完整的操作系统&lt;/mark&gt;而是对进程进行隔离。有了容器，就可以将软件运行所需的所有资源打包到一个隔离的容器中。&lt;mark&gt;容器与虚拟机不同，不需要捆绑一整套操作系统，只需要软件工作所需的库资源和设置&lt;/mark&gt;。系统因此而变得高效轻量并保证部署在任何环境中的软件都能始终如一地运行。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://node-picture-of-typora.oss-cn-hangzhou.aliyuncs.com/image-for-typora/Docker.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;docker网站&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#docker网站&#34;&gt;#&lt;/a&gt; Docker 网站&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker 官网：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZG9ja2VyLmNvbS8=&#34;&gt;https://www.docker.com/&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Docker 镜像文件的官网：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9odWIuZG9ja2VyLmNvbS8=&#34;&gt;https://hub.docker.com/&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
         <updated>2023-11-14T11:57:10.000Z</updated>
     </entry>
